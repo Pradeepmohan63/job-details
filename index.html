@@ -1,0 +1,106 @@
+ <DOCTYPE html>
+ <html>
+ <head>
+	<title>tableform</title>
+	<link rel="stylesheet" href="css/style.css">
+ </head>
+ 
+ <body>
+	<h1 class="heading">Job Details:</h1>
+	
+	<form class="form">
+		<table class="table" border="1"  >
+			<tr>
+				<td class="tda"><label for="jt">Job Title:</label></td>
+				<td class="tdo"><input type="text" id="jt" name="jt"></td>
+			</tr>
+			
+			<tr>
+				<td class="tda"><label for="description">Description:</label></td>
+				<td class="tdo">
+				<textarea id="description" rows="5" cols="20" class="scroll"></textarea>
+				<p>Brief description should have atmost characters</p></td>
+			</tr>
+			
+			<tr>
+				<td class="tda"><label for="cn">Comapany Name:</label></td>
+				<td class="tdo"><input type="text" id="cn" name="cn"></td>
+			</tr>
+			
+			<tr>
+				<td class="tda"><label for="contact">Contact number:</label></td>
+				<td class="tdo"><input type="text" id="contact" name="contact"></td>
+			</tr>
+			
+			<tr>
+				<td class="tda"><label for="contact1">Contact person:</label></td>
+				<td class="tdo"><input type="text" id="contact1" name="contact1"></td>
+			</tr>
+			
+			
+			<tr>
+				<td class="tda"><label for="email">Email:</label></td>
+				<td class="tdo"><input type="email" id="email" name="email"></td>
+			</tr>
+			
+			<tr>
+				<td class="tda"><label for="ws">Work status:</label></td>
+				<td class="tdo"><input type="checkbox" id="fulltime" name="fulltime">
+				<label for="fulltime">Full Time</label>
+				<input type="checkbox" id="parttime" name="parttime">
+				<label for="parttime">Part Time</label>
+				<input type="checkbox" id="perdim" name="perdim">
+				<label for="perdim">Per Dim</label>
+				<input type="checkbox" id="others" name="others">
+				<label for="others">Others</label></td>
+			</tr>
+			
+			<tr>
+				<td class="tda"><label for="salary">Salary:</label></td>
+				<td class="tdo"><input type="text" id="salary" name="salary">
+				<select id="currency" name="currency">
+					<option value="US Dollar" selected>US Dollar</option>
+					<option value="Rupees">Rupees</option>
+					</select>
+				
+				<select id="revenue" name="revenue">
+					<option value="Yearly" selected>Yearly</option>
+					<option value="monthly">monthly</option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="tda"><label for="experience">Experience(Years):</label></td>
+				<td class="tdo"><input type="text" id="experience" name="experience"></td>
+			</tr>
+			
+			<tr>
+				<td class="tda"><label for="location">Locations:</label></td>
+				<td class="tdo"><input type="text" id="location" name="location"</td>
+			</tr>
+			
+			<tr>
+				<td class="tda"><label for="qualifications">Qualifications</label></td>
+				<td class="tdo none">
+				<select id="qualifications" name="qualifications" size="4">
+					<option value="Any">Any</option>
+					<option value="high school">High School</option>
+					<option value="associate">Associate</option>
+					<option value="pre bachelors">Pre Bachelors</option>
+				</select>
+
+				<button type="button">ADD&gt&gt</button>
+				<button type="button">&lt&ltRemove</button>
+				<textarea id="qualifications1" rows="4" cols="6" class="none">Any</textarea>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="tda"><input type="submit"></td>
+				<td class="tdo"><input type="reset"></td>
+			</tr>
+		</table>
+	</form>
+ </body>
+ </html>

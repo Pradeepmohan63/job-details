@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.heading{
+	text-align: center;
+}
+
+.form{
+	display: flex;
+    justify-content: center;
+}
+
+.table{
+	border:3px dotted black;
+	width:50%;
+}
+
+.tda{
+	text-align: end;
+    border: 2px dotted #0000005c;
+}
+
+.tdo{
+	border:2px dotted #0000005c;
+}
+
+input{
+	border-top: 4px solid #8d8d8d;
+    border-left: 4px solid #8d8d8d;
+}
+
+table{
+	border-spacing:5px;
+}
+
+td{
+	padding:10px;
+	
+}
+
+input[type=checkbox]{
+	border-top: 3px solid #8d8d8d;
+    border-left: 3px solid #8d8d8d;
+}
+
+select{
+	border-top: 4px solid #8d8d8d;
+    border-left: 4px solid #8d8d8d;
+}
+
+.scroll{
+	resize:none;
+	overflow-y:scroll;
+	border-top: 3px solid #8d8d8d;
+    border-left: 3px solid #8d8d8d;
+}
+
+.none{
+	resize:none;
+	border-top: 3px solid #8d8d8d;
+    border-left: 3px solid #8d8d8d;
+}
+
